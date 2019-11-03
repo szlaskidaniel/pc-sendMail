@@ -5,7 +5,7 @@ This extension allow to be embedded into PureCloud interface and via SendMail bu
 Follow below steps to enable this functionality in your org
 
 * Create a new OAuth for SendMail functionality (Token Implicit Grant)
-* Set Authorized URIs to `https://szlaskidaniel.github.io/purecloud-send-sms/index.html`
+* Set Authorized URIs to `https://szlaskidaniel.github.io/pc-sendMail/index.html`
 * Copy created clientId.
 * Create / reuse Inbound Script for Calls
 * Add new WebComponent and set it's url to the `https://localhost/index.html?conversationId={{Scripter.Interaction ID}}&queueId={{Scripter.Queue ID}}&phoneNumber={{Scripter.Customer Formatted Number}}

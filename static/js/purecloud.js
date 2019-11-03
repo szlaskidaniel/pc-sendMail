@@ -1,6 +1,6 @@
 // **** Token Implicit Grant (Browser) - UserLogin ****
-//let redirectUri = 'https://szlaskidaniel.github.io/purecloud-send-sms/index.html';
-redirectUri = 'https://localhost/index.html';
+//let redirectUri = 'https://github.com/szlaskidaniel/pc-sendMail/index.html';
+redirectUri = 'https://szlaskidaniel.github.io/pc-sendMail/index.html';
 const platformClient = require('platformClient');
 const client = platformClient.ApiClient.instance
 client.setPersistSettings(true);
@@ -31,7 +31,7 @@ let apiInstance = new platformClient.ConversationsApi();
 
 
 // Authenticate
-client.loginImplicitGrant("89f29367-dc0e-4fd0-9f55-7175a73ee600", "https://localhost/index.html")
+client.loginImplicitGrant("8893204d-5404-42d6-8512-8cd91c6ede6a", "https://szlaskidaniel.github.io/pc-sendMail/index.html")
     .then(() => {
         // Make request to GET /api/v2/users/me?expand=presence
         console.log('Logged-In');
